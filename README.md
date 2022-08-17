@@ -24,7 +24,6 @@ adb shell pm list packages | sort > packages.md
   pm uninstall -k --user 0 com.google.android.videos;
   pm uninstall -k --user 0 com.google.vr.vrcore;
   pm uninstall -k --user 0 com.netflix.mediaclient;
-  pm uninstall -k --user 0 com.samsung.android.app.contacts;
   pm uninstall -k --user 0 com.samsung.android.app.notes;
   pm uninstall -k --user 0 com.samsung.android.app.notes.addons;
   pm uninstall -k --user 0 com.samsung.android.app.routines;
